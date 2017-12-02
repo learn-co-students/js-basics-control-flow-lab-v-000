@@ -16,17 +16,8 @@ function scuberGreetingForFeet(distance) {
 
 
 function ternaryCheckCity(city) {
-  switch (city) {
-    case 'NYC':
-      message = 'Ok, sounds good.';
-      break;
-    case 'Pittsburgh':
-      message = 'No go.'
-      break;
-  }
-
-  return message;
-}
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
+} 
 
 function switchOnCharmFromTip(tip) {
   switch (tip) {

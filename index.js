@@ -10,8 +10,8 @@ function scuberGreetingForFeet(ride) {
 }
 
 // ternary operator 
-function ternaryCheckCity(c) {
-  return (c === 'NYC' ? 'Ok, sounds good.' : 'No go.');
+function ternaryCheckCity(city) {
+  return (city === 'NYC' ? 'Ok, sounds good.' : 'No go.');
 }
 
 //switch statement

@@ -1,3 +1,4 @@
+//if & if else statement 
 function scuberGreetingForFeet(ride) {
   if (ride <= 400) {
     return 'This one is on me!';
@@ -8,10 +9,12 @@ function scuberGreetingForFeet(ride) {
   }
 }
 
+// ternary operator 
 function ternaryCheckCity(c) {
   return (c === 'NYC' ? 'Ok, sounds good.' : 'No go.');
 }
 
+//switch statement
 function switchOnCharmFromTip(tip) {
   switch (tip) {
     case 'generous':

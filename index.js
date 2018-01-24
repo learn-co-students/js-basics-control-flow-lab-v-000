@@ -8,12 +8,8 @@ function scuberGreetingForFeet(ride) {
   }
 }
 
-function ternaryCheckCity(city) {
-  if (city === 'NYC') {
-    return 'Ok, sounds good.';
-  } else if (city != 'NYC') {
-    return 'No go.';
-  }
+function ternaryCheckCity(c) {
+  return (c === 'NYC' ? 'Ok, sounds good.' : 'No go.');
 }
 
 function switchOnCharmFromTip(tip) {

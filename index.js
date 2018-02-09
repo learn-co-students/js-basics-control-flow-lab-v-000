@@ -1,25 +1,29 @@
 // Write your code in this file!
-function scuberGreetingForFeet (feet) {
+function scuberGreetingForFeet(feet) {
   if (feet <= 400) {
     return "This one is on me!";
-  } else if (1999 < feet && feet < 2500) {
+  } else if (feet > 2000 && feet <= 2500) {
     return "I will gladly take your thirty bucks.";
-  } else {
+  } else if (feet > 2500) {
     return "No can do.";
   }
-}
+};
 
-function ternaryCheckCity (city) {
+function ternaryCheckCity(city) {
   return city === "NYC" ? "Ok, sounds good." : "No go.";
-}
+};
+// need the return at the beginning of the line here
 
-function switchOnCharmFromTip (tip) {
-  switch (tip) {
+function switchOnCharmFromTip(tip) {
+  switch(tip) {
     case "generous":
       return "Thank you so much.";
     case "not as generous":
       return "Thank you.";
     default:
       return "Bye.";
-  }
-}
+  };
+};
+//semicolons at end of return lines and after a block?
+//need argument for switch statements
+//semicolon after each case declaration

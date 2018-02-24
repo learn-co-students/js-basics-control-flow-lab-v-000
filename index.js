@@ -1,26 +1,24 @@
-// Write your code in this file!
-function scuberGreetingForFeet() {
+function scuberGreetingForFeet (feet) {
   if (feet <= 400) {
     return 'This one is on me!';
-  }
-  else if (1999 < feet && feet < 2500) {
+  } else if (1999 < feet && feet < 2500) {
     return "I will gladly take your thirty bucks.";
-  }
-  else {
+  } else {
     return "No can do.";
   }
 }
 
-function ternaryCheckCity() {
-  city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
+function ternaryCheckCity (city) {
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
 }
 
-function switchOnCharmFromTip() {
-  case 'generous':
-    return 'Thank you so much.';
-  case 'not as generous':
-    return 'Thank you.';
-  default:
-    return 'Bye.';
-
+function switchOnCharmFromTip (tip) {
+  switch (tip) {
+    case 'generous':
+      return 'Thank you so much.';
+    case 'not as generous':
+      return 'Thank you.';
+    default:
+      return 'Bye.';
+  }
 }

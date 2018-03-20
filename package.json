@@ -28,5 +28,8 @@
   "homepage": "https://github.com/learn-co-curriculum/js-basics-flow-control#readme",
   "devDependencies": {
     "learn-browser": "^0.1.13"
+  },
+  "dependencies": {
+    "js-beautify": "^1.7.5"
   }
 }

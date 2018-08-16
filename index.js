@@ -15,7 +15,7 @@ function ternaryCheckCity(city) {
   // let result
   // city === 'NYC' ? result = 'Ok, sounds good.' : result = "No go."
   // return result
-  return (city === 'NYC' ?  'Ok, sounds good.' :  "No go.")
+  return (city === 'NYC' ? 'Ok, sounds good.' : "No go.")
 }
 
 function switchOnCharmFromTip(tip) {

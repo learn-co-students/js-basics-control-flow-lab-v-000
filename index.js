@@ -1,34 +1,28 @@
 // Write your code in this file!
 function scuberGreetingForFeet(distance) {
-  let message
   if (distance <= 400) {
-    message = "This one is on me!"
+    return "This one is on me!"
   } else if (distance > 2500) {
-    message = "No can do."
+    return "No can do."
   } else if (distance > 2000) {
-    message = "I will gladly take your thirty bucks."
+    return"I will gladly take your thirty bucks."
   }
-  return message
 }
 
 function ternaryCheckCity(city) {
-  let message
   if (city === "NYC") {
-    message = "Ok, sounds good."
+    return "Ok, sounds good."
   } else {
-    message = "No go."
+    return "No go."
   }
-  return message
 }
 
 function switchOnCharmFromTip(tip) {
-  let message
   if (tip === "generous") {
-    message = "Thank you so much."
+    return "Thank you so much."
   } else if (tip === "not as generous") {
-    message = "Thank you."
+    return "Thank you."
   } else {
-    message = "Bye."
+    return "Bye."
   }
-  return message
 }

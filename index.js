@@ -27,6 +27,6 @@ function ternaryCheckCity(city) {
 
         default:
        return  'Bye.';
-       
+    //    you got to play with Javascript a little to understand it, .
    }
 }

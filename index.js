@@ -1,38 +1,30 @@
 // Write your code in this file!
 function scuberGreetingForFeet(someValue) {
+  let result;
 
-  let result
-  if (someValue <= 400) {
-      result = "This one is on me!";
-  }   else if (someValue > 2000 && someValue < 2500) {
-      result = "I will gladly take your thirty bucks.";
-  }   else if (someValue > 2500 ) {
-      result = "No can do.";
+  if(someValue <= 400) {
+    return result = 'This one is on me!'
   }
-  return result
+  else if (someValue > 2000 && someValue < 2500){
+    return result= "I will gladly take your thirty bucks."
+  }
+  else if (someValue >= 2500 ) {
+    return result = "No can do."
+  }
+
 }
 
 function ternaryCheckCity(city) {
-
-  let result
-  if (city === "NYC") {
-    result = "Ok, sounds good.";
-  } else if (city !== "NYC") {
-    result = "No go.";
-  }
-  return result
+  return city === 'NYC' ? 'Ok, sounds good.' : 'No go.'
 }
 
 function switchOnCharmFromTip(tip) {
-
-  let result
-  if (tip === "generous") {
-    result = "Thank you so much.";
-  } else if (tip === "not as generous"){
-    result = "Thank you.";
-  } else {
-    result = "Bye."
+  switch (tip) {
+    case 'generous':
+    return 'Thank you so much.'
+    case 'not as generous':
+    return 'Thank you.'
+    default:
+    return'Bye.'
   }
-
-  return result
 }

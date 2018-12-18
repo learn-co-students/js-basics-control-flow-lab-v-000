@@ -1,14 +1,14 @@
 // Write your code in this file!
-function scuberGreetingForFeet (n) {
+function scuberGreetingForFeet (feet) {
 
-    if (n <= 400) {
-      return = 'This one is on me!';
+    if (feet <= 400) {
+      return = "This one is on me!";
     }
-    else if (n <= 2500) {
-      return = 'I will gladly take your thirty bucks.';
+    else if (1999 < feet && feet <= 2500) {
+      return = "I will gladly take your thirty bucks.";
     }
     else {
-      return = 'No can do.';
+      return = "No can do.";
     }
 }
 

@@ -7,11 +7,27 @@ function scuberGreetingForFeet(distance) {
   } else if (distance > 2500) {
     response = "No can do."
   }
-  return result
+  return response
 };
 
 function ternaryCheckCity(city) {
   let response;
   city === "NYC" ? response = "Ok, sounds good." : response = "No go."
   return response
+};
+
+function switchOnCharmFromTip(tip) {
+  let response;
+  switch (tip) {
+    case "generous" :
+      response = "Thank you so much.";
+      break;
+    case : "not as genorous"
+      response = "Thank you.";
+      break;
+    default :
+      response = "Bye.";
+      break;
+  };
+  return response;
 };

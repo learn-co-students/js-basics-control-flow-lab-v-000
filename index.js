@@ -1,11 +1,36 @@
 // Write your code in this file!
-function scuberGreetingForFeet()  {
-    //everything I want my function to do I put inside these curly braces
-    //in this example, lets say I want my function, addFive, to add 5 to any number I pass in (someNumber), but only IF the number is greater than zero
+let someNumber;
+let someCity;
+let someTip;
+
+function scuberGreetingForFeet(someNumber)  {
     let result
-    if (someNumber > 0) {
-      result = someNumber + 5;
+    if (someNumber < 400) {
+        result = 'This one is on me!';
+    } else if (someNumber > 2000 && someNumber < 2500) {
+        result = 'I will gladly take your thirty bucks.';
+    } else if (someNumber > 2500) {
+        result = 'No can do.';
     }
-    //at the end, if I want my function to return something, I need to state it:
     return result
   }
+
+function ternaryCheckCity(someCity) {
+    let result
+    return someCity === 'NYC' ? result = 'Ok, sounds good.' : result = 'No go.';
+}
+
+function switchOnCharmFromTip(someTip) {
+    switch (someTip) {
+    case 'generous':
+        return "Thank you so much.";
+        break;
+    case 'not as generous':
+        return "Thank you.";
+        break;
+    default:
+         return "Bye.";
+        break;
+    }
+}
+

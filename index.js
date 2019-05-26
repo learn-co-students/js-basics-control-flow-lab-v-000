@@ -1,10 +1,10 @@
-function scuberGreetingForFeet(length_in_feet) {
+function scuberGreetingForFeet(lengthInFeet) {
 	let result
-	if (length_in_feet <= 400) {
+	if (lengthInFeet <= 400) {
 		result = 'This one is on me!'
-	} else if (length_in_feet > 2500) {
+	} else if (lengthInFeet > 2500) {
 		result = 'No can do.'
-	} else if (length_in_feet > 2000) {
+	} else if (lengthInFeet > 2000) {
 		result = 'I will gladly take your thirty bucks.'
 	}
 	return result

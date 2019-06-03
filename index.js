@@ -8,12 +8,12 @@ function scuberGreetingForFeet(d) {
 		answer = "No can do.";
 	}
 	return answer;
-};
+}
 
 function ternaryCheckCity(city) {
 	const greeting = city === "NYC"? "Ok, sounds good." : "No go.";
 	return greeting;
-};
+}
 
 function switchOnCharmFromTip(tip) {
 	let message;
@@ -29,4 +29,4 @@ function switchOnCharmFromTip(tip) {
         break;
 	}
 	return message;
-};
+}

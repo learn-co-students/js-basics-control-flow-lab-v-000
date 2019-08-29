@@ -24,15 +24,15 @@ return city
 
 function switchOnCharmFromTip(someValue){
   let response;
-  switch (tip){
+  switch (someValue){
     case 'generous':
-    response = 'Thank you so much.';
+    response = "Thank you so much.";
     break;
     case 'not as generous':
-    response = 'Thank you.';
+    response = "Thank you.";
     break;
     default:
-      response = "Bye.";
-      break;
+      response = "Bye."
   }
+    return response
 }

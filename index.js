@@ -24,10 +24,10 @@ function switchOnCharmFromTip(tip) {
       gratitude = 'Thank you so much.';
       break;
     case 'not as generous':
-      gratitude = "Thank you.";
+      gratitude = 'Thank you.';
       break;
     default:
-      gratitude = 'Bye'
+      gratitude = 'Bye.'
   }
   return gratitude;
 }
